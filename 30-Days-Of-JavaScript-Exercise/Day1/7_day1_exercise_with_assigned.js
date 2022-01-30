@@ -24,5 +24,5 @@ console.log(typeof city, typeof country, typeof love, typeof age, typeof homelan
 //Values typeof
 
 //Values typeof results
->string string object number string //typeof values
+>string string object number string
 //Values typeof results

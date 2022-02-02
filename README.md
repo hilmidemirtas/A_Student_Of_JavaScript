@@ -6,4 +6,4 @@ If you want to be a partner in developing this repo please write to me : hilmide
 
 #### ***Exercises Community***
 
-> *Hilmi Demirtaş* [github](https://github.com/hilmidemirtas)
+> ***[Hilmi Demirtaş](https://github.com/hilmidemirtas)***

@@ -26,8 +26,10 @@ let y = `5`
 console.log(x != y)
 >false
 
-let x = 27
-
+let x = `hilmi`
+let y = `demirtas`
+console.log(x.length > y.length)
+>false
 
 let x = `hilmi`
 let y = `demir`

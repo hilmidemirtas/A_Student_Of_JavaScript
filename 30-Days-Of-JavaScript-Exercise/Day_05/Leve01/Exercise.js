@@ -33,3 +33,11 @@ const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle'
 console.log(itCompanies.toString().toUpperCase())
 
 //12
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+let a = itCompanies.pop()
+let b = itCompanies.push('and')
+let c = itCompanies.push(a)
+console.log(`${itCompanies} are big IT companies`)
+
+//13
+

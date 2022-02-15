@@ -28,4 +28,8 @@ const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle'
       console.log(itCompanies.toString())
 
 
-//
+//11
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+console.log(itCompanies.toString().toUpperCase())
+
+//12

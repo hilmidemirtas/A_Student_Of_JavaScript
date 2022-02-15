@@ -25,6 +25,7 @@ const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle'
       console.log(itCompanies[0])
       console.log(itCompanies[3])
       console.log(itCompanies[6])
+      console.log(itCompanies.toString())
 
 
 //

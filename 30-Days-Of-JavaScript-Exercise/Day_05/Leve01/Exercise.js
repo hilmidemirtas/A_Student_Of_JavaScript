@@ -68,3 +68,10 @@ console.log(b)
  //16
      let alphabet = "asdfghjklşiqwertyuıopğüzxcvbnmöç"
       console.log(alphabet.split("").sort().reverse())
+
+//17
+const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle', 'amazon']
+console.log(itCompanies.slice(0,3))
+
+//18
+

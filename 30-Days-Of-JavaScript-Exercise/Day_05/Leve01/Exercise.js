@@ -75,3 +75,5 @@ console.log(itCompanies.slice(0,3))
 
 //18
 
+const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle', 'amazon']
+console.log(itCompanies.slice(itCompanies.length-3,itCompanies.length))

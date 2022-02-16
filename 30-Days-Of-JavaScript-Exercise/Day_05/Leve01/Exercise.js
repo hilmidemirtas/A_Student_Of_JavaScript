@@ -93,3 +93,12 @@ console.log(itCompanies.slice((itCompanies.length+1)/2 -1, (itCompanies.length+1
 ????????
 
 //22
+const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle', 'amazon']
+console.log(itCompanies.pop())
+console.log(itCompanies)
+
+//23
+const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle', 'amazon']
+console.log(itCompanies.splice(0, itCompanies.length))
+console.log(itCompanies)
+//

@@ -62,3 +62,9 @@ console.log(b)
 
 //15
 
+     let alphabet = "asdfghjklşiqwertyuıopğüzxcvbnmöç"
+      console.log(alphabet.split("").sort()
+                  
+ //16
+     let alphabet = "asdfghjklşiqwertyuıopğüzxcvbnmöç"
+      console.log(alphabet.split("").sort().reverse())

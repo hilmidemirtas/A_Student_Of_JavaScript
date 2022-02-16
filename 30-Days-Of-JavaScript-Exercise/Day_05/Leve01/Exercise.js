@@ -81,3 +81,8 @@ console.log(itCompanies.slice(itCompanies.length-3,itCompanies.length))
 //19
 const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle', 'amazon']
 console.log(itCompanies.slice((itCompanies.length+1)/2 -1, (itCompanies.length+1)/2))
+
+//20
+const itCompanies = ['facebook', 'google', 'microsoft', 'apple', 'ibm', 'oracle', 'amazon']
+console.log(itCompanies.shift())
+console.log(itCompanies)

@@ -41,3 +41,14 @@ console.log(`${itCompanies} are big IT companies`)
 
 //13
 
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+let a = itCompanies.toString()
+let b = (prompt('enter a company'))
+if (a.match(b)) {
+    alert(`${b}`) }
+else {
+    alert(`${b} is not in`)
+}
+console.log(b)
+
+//14

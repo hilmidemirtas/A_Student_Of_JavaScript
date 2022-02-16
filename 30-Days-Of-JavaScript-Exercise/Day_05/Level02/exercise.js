@@ -11,4 +11,12 @@ let words = text.split(".").join("").split(",").join("").split(" ")
 console.log(words)
 console.log(words.length)
  
-//3
+//3.1
+        const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+       shoppingCart.unshift('Sugar')
+       console.log(shoppingCart)
+//3.2
+        const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+       shoppingCart.push('Sugar')
+       console.log(shoppingCart)
+//3.3

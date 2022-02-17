@@ -32,3 +32,6 @@ else {
 }
       
 //3.4
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+shoppingCart["Tea"] = "Green Tea"
+console.log(shoppingCart)

@@ -35,3 +35,26 @@ else {
 const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 shoppingCart["Tea"] = "Green Tea"
 console.log(shoppingCart)
+
+//4
+     const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
+if (countries.includes("Ethiopia")){
+    console.log("Ethiopia".toUpperCase())
+}
+else {
+    countries.push("Ethiopia")
+    console.log(countries)
+}
+//5

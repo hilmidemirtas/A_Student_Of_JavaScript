@@ -20,3 +20,15 @@ console.log(words.length)
        shoppingCart.push('Sugar')
        console.log(shoppingCart)
 //3.3
+     let a = prompt('enter something')
+       const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+if (a == 'Honey') {
+    shoppingCart.pop()
+    console.log(shoppingCart)
+} 
+else {
+    console.log(shoppingCart)
+}
+      
+//3.4

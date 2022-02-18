@@ -42,4 +42,8 @@ let i = 10
 
 //3
 
+let n = parseInt(prompt("enter a number"))
+    for(i=0; i <= n; i++ ) {
+        console.log(i)
+    }               
 

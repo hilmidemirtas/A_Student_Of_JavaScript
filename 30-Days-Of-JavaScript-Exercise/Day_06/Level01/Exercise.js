@@ -21,6 +21,10 @@ do {
       
       
 //2
+     
+       for(i=10; i >=1; i--) {
+         console.log(i)
+     }
 
       
 
@@ -28,3 +32,14 @@ do {
       while(i >= 0) {
           console.log(i)
           i--; }
+
+let i = 10
+    do {
+        console.log(i)
+        i--
+    }
+    while(i>=0)
+
+//3
+
+

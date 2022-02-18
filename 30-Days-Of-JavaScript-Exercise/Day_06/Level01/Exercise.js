@@ -47,3 +47,13 @@ let n = parseInt(prompt("enter a number"))
         console.log(i)
     }               
 //4
+
+let a = ""
+   const b = ['#']
+   for(i = 0; i <= 7; i++) {
+     a += b
+    
+       console.log(a)
+   }
+//5
+

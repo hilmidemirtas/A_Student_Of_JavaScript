@@ -98,14 +98,14 @@ if ( i % 2 == 0) {
 
 numbers = []
 let sum = 0
-for (i=0; i <=10; i++) {
-  for(a=0; a<=10; a++) {
+for (i=0; i <=100; i++) {
+  for(a=0; a<=100; a++) {
     numbers.push(a)
   }
   sum += numbers[i]
   
 }
-console.log(sum)
+console.log(`the sum of all numbers from 0 to 100 is ${sum}`)
 
 //11
 

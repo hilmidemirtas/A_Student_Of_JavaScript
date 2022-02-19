@@ -8,6 +8,9 @@ let firstName = 'Hilmi';
 let lastName= 'Demirtaş';
 console.log('Hello its',' ',firstName,' ',lastName)
 
+//result
+>Hello its Hilmi Demirtaş
+
 /* I
   really
   like to

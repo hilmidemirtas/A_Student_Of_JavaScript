@@ -96,4 +96,16 @@ if ( i % 2 == 0) {
 
 //10
 
+numbers = []
+let sum = 0
+for (i=0; i <=10; i++) {
+  for(a=0; a<=10; a++) {
+    numbers.push(a)
+  }
+  sum += numbers[i]
+  
+}
+console.log(sum)
+
+//11
 

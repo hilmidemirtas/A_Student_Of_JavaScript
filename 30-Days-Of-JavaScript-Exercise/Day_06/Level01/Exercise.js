@@ -99,9 +99,8 @@ if ( i % 2 == 0) {
 numbers = []
 let sum = 0
 for (i=0; i <=100; i++) {
-  for(a=0; a<=100; a++) {
-    numbers.push(a)
-  }
+
+  numbers.push(i)
   sum += numbers[i]
   
 }

@@ -73,4 +73,13 @@ if ( i % 2 == 1) {
 }
 
 //8
+for (i=0; i<=100; i++) {
+if ( i % 2 == 0) {
+    continue
+}
+    console.log(i)
+}
+
+//9
+
 

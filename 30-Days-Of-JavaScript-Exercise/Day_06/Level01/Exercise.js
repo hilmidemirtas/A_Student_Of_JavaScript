@@ -82,4 +82,18 @@ if ( i % 2 == 0) {
 
 //9
 
+    for (i=2;i<=100;i++) {
+        let prime = true 
+        for(a = 2; a <= i;a++ ){
+            if(i % a === 0 && a !==i){
+                prime = false
+            }
+        }
+        if(prime) {
+            console.log(i)
+        }
+    }
+
+//10
+
 

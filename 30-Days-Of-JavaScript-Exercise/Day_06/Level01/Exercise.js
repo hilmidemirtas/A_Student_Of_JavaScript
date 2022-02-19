@@ -120,3 +120,22 @@ for (let i = 0; i <= 100; i++) {
 console.log(sumE, sumO)
 
 //12
+const a = []
+let sumE = 0
+let sumO = 0
+
+// You could technically start at 1 here
+for (let i = 0; i <= 100; i++) {
+  // Just add the numbers without using arrays
+  if (i % 2 == 0) {
+    sumE += i
+    
+  } else {
+    sumO += i
+  }
+ 
+}
+a.push(sumE)
+a.push(sumO)
+
+console.log(a)

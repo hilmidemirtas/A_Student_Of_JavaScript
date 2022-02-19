@@ -65,5 +65,12 @@ for (i=0; i <= 10; i++) {
     console.log(`${i} ${i**2} ${i**3}`) }
 
 //7
+for (i=0; i<=100; i++) {
+if ( i % 2 == 1) {
+    continue
+}
+    console.log(i)
+}
 
+//8
 

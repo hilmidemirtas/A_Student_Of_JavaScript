@@ -96,15 +96,27 @@ if ( i % 2 == 0) {
 
 //10
 
-numbers = []
 let sum = 0
-for (i=0; i <=100; i++) {
-
-  numbers.push(i)
-  sum += numbers[i]
-  
+for(i = 0; i <= 100; i++) {
+    sum += i
 }
 console.log(`the sum of all numbers from 0 to 100 is ${sum}`)
 
 //11
 
+let sumE = 0
+let sumO = 0
+
+// You could technically start at 1 here
+for (let i = 0; i <= 100; i++) {
+  // Just add the numbers without using arrays
+  if (i % 2 == 0) {
+    sumE += i
+  } else {
+    sumO += i
+  }
+}
+
+console.log(sumE, sumO)
+
+//12

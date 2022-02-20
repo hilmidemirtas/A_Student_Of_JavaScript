@@ -225,3 +225,188 @@ console.log(lessonName.replace("JavaScript", "Python"))
 
 
 
+/* Exercise 13:
+What is character at index
+15 in '30 Days Of JavaScript' string? Use charAt() method.
+*/
+
+let lesson = "30 Days Of JavaScript" 
+console.log(lesson.charAt(15))
+
+//result
+> S
+
+
+
+/* Exercise 14:
+What is the character code of J in
+'30 Days Of JavaScript' string using charCodeAt()
+*/
+
+let course = "30 Days Of JavaScript"
+console.log(course.charAt(11))
+
+//result
+> J         //First we find where J is and we are sure now it is 11
+
+let course = "30 Days Of JavaScript"
+console.log(course.charCodeAt(11))
+
+//result
+>74
+
+
+
+/* Exercise 15:
+Use indexOf to determine the position 
+of the first occurrence of a in 30 Days Of JavaScript
+*/
+
+let course = "30 Days Of JavaScript"
+console.log(course.indexOf("a"))
+
+//result
+
+>4
+
+//another exercise
+let course = "30 Days Of JavaScript"
+console.log(course.indexOf("J"))
+
+//result
+>11
+
+
+
+/* Exercise 16:
+Use lastIndexOf to determine the position of the last
+occurrence of a in 30 Days Of JavaScript.
+*/
+
+let lesson = "30 Days Of JavaScript"
+console.log(lesson.lastIndexOf("a"))
+
+//result
+>14
+
+
+
+/* Exercise 17:
+Use indexOf to find the position of the first
+occurrence of the word because in the following sentence:
+'You cannot end a sentence with because because because is a conjunction'
+*/
+
+let word = "You cannot end a sentence with because because because is a conjunction"
+console.log(word.indexOf("because"))
+
+//result
+>31 
+
+
+
+/* Exercise 18:
+Use lastIndexOf to find the position of the last occurrence
+of the word because in the following sentence:
+'You cannot end a sentence with because because because is a conjunction'
+*/
+
+let word = "You cannot end a sentence with because because because is a conjunction"
+console.log(word.lastIndexOf("because"))
+
+//result
+>47
+
+
+
+/* Exercise 19:
+Use search to find the position of the first occurrence
+of the word because in the following sentence:
+'You cannot end a sentence with because because because is a conjunction'
+*/
+
+let exercise = "You cannot end a sentence with because because because is a conjunction"
+console.log(exercise.search("because"))
+//console.log(exercise.search(/because/gi)) -- same search, case insensitive
+
+//result
+>31
+
+
+
+/* Exercise 20:
+Use trim() to remove any trailing whitespace
+at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+*/
+
+let lesson = " 30 Days Of JavaScript "
+console.log(lesson.trim())
+
+//result 
+>30 Days Of JavaScript
+
+
+
+/* Exercise 21:
+Use startsWith() method with the string
+30 Days Of JavaScript and make the result true
+*/
+
+let name = "30 Days Of JavaScript"
+console.log(name.startsWith("3"))
+
+//result
+>true
+
+
+
+/* Exercise 22:
+Use endsWith() method with the string
+30 Days Of JavaScript and make the result true
+*/
+
+let book = "30 Days Of JavaScript"
+console.log(book.endsWith("t"))
+
+//result
+>true
+
+
+
+/* Exercise 23:
+Use match() method to find all the a’s in 30 Days Of JavaScript
+*/
+
+let book = "30 Days Of JavaScript"
+let a = /a/g
+console.log(book.match(a))
+
+//result
+>(3) ['a', 'a', 'a']
+
+
+
+/* Exercise 24:
+Use concat() and merge '30 Days of' and
+'JavaScript' to a single string, '30 Days Of JavaScript'
+*/
+
+let first = "30 Days Of"
+console.log(first.concat(` JavaScript`))
+
+//result
+> 30 Days Of JavaScript
+
+
+
+/* Exercise 25:
+Use repeat() method to print 30 Days Of JavaScript 2 times
+*/
+
+let name = ` 30 Days Of JavaScript`
+console.log(name.repeat(2))
+
+//result
+>30 Days Of JavaScript 30 Days Of JavaScript
+
+

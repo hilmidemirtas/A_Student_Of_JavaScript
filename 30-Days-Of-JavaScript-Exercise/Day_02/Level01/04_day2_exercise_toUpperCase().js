@@ -8,3 +8,9 @@ console.log(name.toUpperCase())
 
 //results
 >HILMI DEMIRTAS
+
+//another
+let name = `javascript`
+console.log(name.toUpperCase())
+
+>JAVASCRIPT

@@ -15,3 +15,8 @@ console.log(name.split(""))
 
 //result
 >(14) ['h', 'i', 'l', 'm', 'i', ' ', 'd', 'e', 'm', 'i', 'r', 't', 'a', 's']
+
+let name = 'hilmi demirtas'
+console.log(name.split(" "))
+
+>(2) ['hilmi', 'demirtas']

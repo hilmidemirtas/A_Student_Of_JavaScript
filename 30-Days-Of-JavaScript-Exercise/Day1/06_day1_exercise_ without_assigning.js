@@ -1,4 +1,4 @@
-//Declare four variables without assigning values
+// Exercise 6: Declare four variables without assigning values
 
 let city // this value can change
 let country // this value can change

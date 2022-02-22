@@ -12,4 +12,13 @@ function fullName() {
 fullName()
 
 //Exercise 02
-/
+/* 2.Declare a function fullName and now it takes firstName,
+ lastName as a parameter and it returns your full - name.*/
+function fullName() {
+  let firstName = `hilmi`
+  let lastName = ` demirtaş`
+  let myFullName = firstName + lastName
+  return myFullName
+}
+console.log(fullName())
+

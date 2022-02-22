@@ -34,6 +34,16 @@ function addNumbers(numOne, numTwo) {
 }
 console.log(addNumbers(10,20))
 
+//Exercise 04
+/* 4.An area of a rectangle is calculated as follows: area = length x width.
+Write a function which calculates areaOfRectangle.*/
+function areaOfReactangle(length, width) {
+    let perimeter = 2 * (length + width)
+    return perimeter
 
+}
+console.log(areaOfReactangle(5,4))
 
+//Exercise 05
+/*
   

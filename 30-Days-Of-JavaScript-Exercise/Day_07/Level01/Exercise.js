@@ -11,6 +11,8 @@ function fullName() {
   }
 fullName()
 
+
+
 //Exercise 02
 /* 2.Declare a function fullName and now it takes firstName,
  lastName as a parameter and it returns your full - name.*/
@@ -22,3 +24,16 @@ function fullName() {
 }
 console.log(fullName())
 
+
+
+//Exercise 03
+/* 3.Declare a function addNumbers and it takes two two parameters and it returns sum. */
+function addNumbers(numOne, numTwo) {
+  let sum = numOne + numTwo
+  return sum 
+}
+console.log(addNumbers(10,20))
+
+
+
+  

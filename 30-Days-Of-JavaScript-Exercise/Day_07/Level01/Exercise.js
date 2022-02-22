@@ -27,7 +27,7 @@ console.log(fullName())
 
 
 //Exercise 03
-/* 3.Declare a function addNumbers and it takes two two parameters and it returns sum. */
+/* 3. Declare a function addNumbers and it takes two two parameters and it returns sum. */
 function addNumbers(numOne, numTwo) {
   let sum = numOne + numTwo
   return sum 
@@ -35,7 +35,7 @@ function addNumbers(numOne, numTwo) {
 console.log(addNumbers(10,20))
 
 //Exercise 04
-/* 4.An area of a rectangle is calculated as follows: area = length x width.
+/* 4. An area of a rectangle is calculated as follows: area = length x width.
 Write a function which calculates areaOfRectangle.*/
 function areaOfReactangle(length, width) {
     let area = length * width
@@ -45,7 +45,7 @@ function areaOfReactangle(length, width) {
 console.log(areaOfReactangle(5,4))
 
 //Exercise 05
-/*5.A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). 
+/* 5. A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). 
 Write a function which calculates perimeterOfRectangle.*/
 function perimeterOfRectangle(length, width) {
     let perimeter = 2 * (length + width)
@@ -53,4 +53,15 @@ function perimeterOfRectangle(length, width) {
 
 }
 console.log(perimeterOfRectangle(5,4))
+
+//Exercise 06
+/* 6.A volume of a rectangular prism is calculated as follows: volume = length x width x height.
+ Write a function which calculates volumeOfRectPrism. */
+function volumeOfRectPrism(length, width, height) {
+  return length * width * height
+}
+console.log(volumeOfRectPrism(2,3,4))
+
+//Exercise 07
+/*
   

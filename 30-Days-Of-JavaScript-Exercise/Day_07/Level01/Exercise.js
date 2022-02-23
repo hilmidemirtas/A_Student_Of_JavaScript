@@ -74,5 +74,13 @@ console.log(areaOfCricle(10))
 
 
 //Exercise 08
-/* 
+/* Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle */
+function circumOfCircle(r) {
+         circumference = 2 * Math.PI * r
+return circumference
+}
+console.log(circumOfCircle(10))
+
+//Exercise 09 
+/*
   

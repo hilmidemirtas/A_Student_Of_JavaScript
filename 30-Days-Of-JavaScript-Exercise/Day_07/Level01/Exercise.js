@@ -91,4 +91,13 @@ console.log(densityOfSub(5,6))
  
 
 //Exercise 10
-/*
+/*Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken.
+Write a function which calculates a speed of a moving object, speed.*/
+
+function speed(x,t) {
+         let v = x / t
+        return v
+} 
+console.log(speed(100,5))
+
+//Exercise 11

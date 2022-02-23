@@ -82,5 +82,13 @@ return circumference
 console.log(circumOfCircle(10))
 
 //Exercise 09 
+/*Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density. */
+function densityOfSub(mass, volume) {
+         let density = mass / volume
+         return density
+}
+console.log(densityOfSub(5,6))
+ 
+
+//Exercise 10
 /*
-  

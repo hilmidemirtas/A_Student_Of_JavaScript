@@ -107,3 +107,13 @@ function calWeight(mass,gravity) {
         return weight
 }
 console.log(calWeight(50,10))
+
+//Exercise 12
+/*12.Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32.
+Write a function which convert oC to oF convertCelciusToFahrenheit.*/
+function convert(oc) {
+             let of = (oc * (9/5) + 32) 
+            return of
+}
+console.log(convert(50))
+

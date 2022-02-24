@@ -63,7 +63,7 @@ function volumeOfRectPrism(length, width, height) {
 console.log(volumeOfRectPrism(2,3,4))
 
 //Exercise 07
-/*Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle */
+/*7.Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle */
 
 function areaOfCircle(r) {
      area = Math.PI * r**2
@@ -74,7 +74,7 @@ console.log(areaOfCricle(10))
 
 
 //Exercise 08
-/* Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle */
+/*8.Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle */
 function circumOfCircle(r) {
          circumference = 2 * Math.PI * r
 return circumference
@@ -82,7 +82,7 @@ return circumference
 console.log(circumOfCircle(10))
 
 //Exercise 09 
-/*Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density. */
+/*9.Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density. */
 function densityOfSub(mass, volume) {
          let density = mass / volume
          return density
@@ -91,7 +91,7 @@ console.log(densityOfSub(5,6))
  
 
 //Exercise 10
-/*Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken.
+/*10.Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken.
 Write a function which calculates a speed of a moving object, speed.*/
 
 function speed(x,t) {
@@ -101,3 +101,9 @@ function speed(x,t) {
 console.log(speed(100,5))
 
 //Exercise 11
+/*11.Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.*/
+function calWeight(mass,gravity) {
+        let weight = mass * gravity
+        return weight
+}
+console.log(calWeight(50,10))

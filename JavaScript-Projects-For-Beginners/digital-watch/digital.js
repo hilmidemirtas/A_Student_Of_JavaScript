@@ -1,3 +1,7 @@
+
+setInterval(time,1000);
+
+
 function time() {
     const now = new Date();
     const saat = now.getHours();

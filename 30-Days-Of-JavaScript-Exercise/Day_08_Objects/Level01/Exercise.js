@@ -29,3 +29,5 @@ console.log(dog)
 const dog = { name:"fox", color:"brown", age:8, bark: function() {
     return `woof woof`
 }}
+dog.getDogInfo = `breed`
+console.log(dog)

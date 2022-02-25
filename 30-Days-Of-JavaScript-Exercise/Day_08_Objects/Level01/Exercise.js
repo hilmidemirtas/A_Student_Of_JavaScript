@@ -26,3 +26,6 @@ console.log(dog)
 
 //Exercise 5
 /*Set new properties the dog object: breed, getDogInfo*/
+const dog = { name:"fox", color:"brown", age:8, bark: function() {
+    return `woof woof`
+}}

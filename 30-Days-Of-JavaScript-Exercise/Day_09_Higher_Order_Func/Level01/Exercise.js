@@ -26,5 +26,5 @@ const products = [
 
 >names.forEach((element) => console.log(element))
 
-//5.
+//5.Use forEach to console.log each number in the numbers array.
 

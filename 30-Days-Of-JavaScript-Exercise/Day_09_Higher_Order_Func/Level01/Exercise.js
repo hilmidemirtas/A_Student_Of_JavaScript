@@ -28,3 +28,5 @@ const products = [
 
 //5.Use forEach to console.log each number in the numbers array.
 
+
+//6.Use map to create a new array by changing each country to uppercase in the countries array.

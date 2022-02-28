@@ -34,3 +34,5 @@ const products = [
 //7.Use map to create an array of countries length from countries array.
 
 //8.Use map to create a new array by changing each number to square in the numbers array
+
+//9.Use map to change to each name to uppercase in the names array

@@ -36,3 +36,5 @@ const products = [
 //8.Use map to create a new array by changing each number to square in the numbers array
 
 //9.Use map to change to each name to uppercase in the names array
+
+//10.Use map to map the products array to its corresponding prices.

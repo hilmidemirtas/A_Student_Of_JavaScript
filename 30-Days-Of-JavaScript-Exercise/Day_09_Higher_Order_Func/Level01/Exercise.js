@@ -58,3 +58,8 @@ console.log(namesToUpperCase)
 //10.Use map to map the products array to its corresponding prices.
 
 //11.Use filter to filter out countries containing land.
+
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland'];
+const countriesContainingLand = countries.filter((country) => 
+    country.includes('land'))
+console.log(countriesContainingLand)

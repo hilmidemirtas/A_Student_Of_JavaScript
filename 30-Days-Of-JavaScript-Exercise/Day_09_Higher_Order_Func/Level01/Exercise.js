@@ -36,6 +36,9 @@ console.log(sum)
 
 //6.Use map to create a new array by changing each country to uppercase in the countries array.
 
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
+countries.forEach((element) => console.log(element.toUpperCase()))
+
 //7.Use map to create an array of countries length from countries array.
 
 //8.Use map to create a new array by changing each number to square in the numbers array

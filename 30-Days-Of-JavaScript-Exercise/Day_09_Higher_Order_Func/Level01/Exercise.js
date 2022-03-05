@@ -69,3 +69,5 @@ console.log(countriesContainingLand)
 //13.Use filter to filter out countries containing six letters and more in the country array.
 
 //14.Use filter to filter out country start with 'E';
+
+//15.Use filter to filter out only prices with values.

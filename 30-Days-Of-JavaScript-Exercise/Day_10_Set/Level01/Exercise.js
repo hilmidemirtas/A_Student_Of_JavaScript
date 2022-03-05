@@ -4,4 +4,5 @@
 const a = new Set()
 console.log(a)
 
-//02.
+//02.Create a set containing 0 to 10 using loop
+

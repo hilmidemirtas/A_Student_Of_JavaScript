@@ -63,3 +63,7 @@ const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland'];
 const countriesContainingLand = countries.filter((country) => 
     country.includes('land'))
 console.log(countriesContainingLand)
+
+//12.Use filter to filter out countries having six character.
+
+//13.

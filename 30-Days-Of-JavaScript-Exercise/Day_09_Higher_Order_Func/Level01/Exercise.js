@@ -71,3 +71,5 @@ console.log(countriesContainingLand)
 //14.Use filter to filter out country start with 'E';
 
 //15.Use filter to filter out only prices with values.
+
+//16.Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.

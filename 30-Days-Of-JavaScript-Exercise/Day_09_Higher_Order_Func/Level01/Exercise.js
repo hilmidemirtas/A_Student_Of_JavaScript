@@ -66,4 +66,6 @@ console.log(countriesContainingLand)
 
 //12.Use filter to filter out countries having six character.
 
-//13.
+//13.Use filter to filter out countries containing six letters and more in the country array.
+
+//14.Use filter to filter out country start with 'E';

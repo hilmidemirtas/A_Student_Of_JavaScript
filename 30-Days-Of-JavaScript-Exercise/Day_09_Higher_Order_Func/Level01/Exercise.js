@@ -73,3 +73,5 @@ console.log(countriesContainingLand)
 //15.Use filter to filter out only prices with values.
 
 //16.Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
+
+//17.Use reduce to sum all the numbers in the numbers array.

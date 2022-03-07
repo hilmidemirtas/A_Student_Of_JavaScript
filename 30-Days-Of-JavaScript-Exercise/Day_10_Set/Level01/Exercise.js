@@ -11,4 +11,4 @@ console.log(a)
 
 //04.Clear a set
 
-//05.
+//05.Create a set of 5 string elements from array

@@ -12,6 +12,12 @@ for(i=0; i<11; i++) {
 }
 console.log(setOfNumbers)
 //03.Remove an element from a set
+const numbers = []
+setOfNumbers = new Set()
+for(i=0; i<11; i++) {
+  setOfNumbers.add(i)
+}
+console.log(setOfNumbers)
 
 //04.Clear a set
 

@@ -23,3 +23,4 @@ console.log(setOfNumbers)
 console.log()
 
 //05.Create a set of 5 string elements from array
+console.log()

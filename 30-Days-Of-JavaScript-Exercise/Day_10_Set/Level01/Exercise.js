@@ -20,7 +20,13 @@ for(i=0; i<11; i++) {
 console.log(setOfNumbers)
 
 //04.Clear a set
-console.log()
+const companies = ["a", "b", "c"]
+setOfCompanies = new Set()
+for(const com of companies) {
+    setOfCompanies.add(com)
+}
+setOfCompanies.clear()
+console.log(setOfCompanies)
 
 //05.Create a set of 5 string elements from array
 console.log()

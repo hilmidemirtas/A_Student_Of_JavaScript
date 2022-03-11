@@ -29,4 +29,10 @@ setOfCompanies.clear()
 console.log(setOfCompanies)
 
 //05.Create a set of 5 string elements from array
-console.log()
+const strings = ["a", "b", "c", "d", "e"]
+newStrings = new Set() 
+for (const addStrings of strings) {
+    newStrings.add(addStrings)
+    
+}
+console.log(newStrings)

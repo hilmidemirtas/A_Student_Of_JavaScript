@@ -38,3 +38,9 @@ for (const addStrings of strings) {
 console.log(newStrings)
 
 //06.Create a map of countries and number of characters of a country
+
+
+//Level02
+
+//01.Find a union b
+

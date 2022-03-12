@@ -28,6 +28,7 @@ for(const com of companies) {
 setOfCompanies.clear()
 console.log(setOfCompanies)
 
+
 //05.Create a set of 5 string elements from array
 const strings = ["a", "b", "c", "d", "e"]
 newStrings = new Set() 
@@ -37,8 +38,17 @@ for (const addStrings of strings) {
 }
 console.log(newStrings)
 
-//06.Create a map of countries and number of characters of a country
 
+
+//06.Create a map of countries and number of characters of a country
+  countries = [
+    ['turkey'],
+    ['Greece'],
+    ['Italy']
+  ]
+  const map = new Map(countries)
+  console.log(map)
+  console.log(map.size)
 
 //Level02
 

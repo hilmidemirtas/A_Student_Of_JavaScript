@@ -22,3 +22,5 @@
   const axisx = [-12, -4, -3, -1]
   const axisy= [4, 8,]
   
+// Exercise 3. Write a pattern which identify if a string is a valid JavaScript variable
+

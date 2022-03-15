@@ -24,3 +24,6 @@
   
 // Exercise 3. Write a pattern which identify if a string is a valid JavaScript variable
 
+//Level 2
+
+//Exercise 1. Write a function called tenMostFrequentWords which get the ten most frequent word from a string?

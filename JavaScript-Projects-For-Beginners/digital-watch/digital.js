@@ -1,4 +1,4 @@
-
+//this is for console
 setInterval(time,1000);
 
 

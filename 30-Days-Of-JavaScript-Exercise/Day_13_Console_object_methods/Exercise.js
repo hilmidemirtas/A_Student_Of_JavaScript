@@ -3,9 +3,6 @@
 //1.Display the countries array as a table
 
 const countries = [
-    {country:"turkey"},
-    {country:"greece"},
-    {country:"turkey"},
-    {country:"greece"},
+    "turkey", "greece", "germany", "usa"
 ]
 console.table(countries)

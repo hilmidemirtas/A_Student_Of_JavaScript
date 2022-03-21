@@ -9,12 +9,23 @@ try {
 //Result
 //error
 
-/* Exercise 1 */
+/* Exercise 2 */
 try {
     let firstName = "hilmi";
     console.log(firstName);
 } catch(err) {
     console.log("error")
+}
+
+//Result
+//hilmi
+
+/* Exercise 3 */
+try {
+    let firstName = "hilmi";
+    console.log(Name);
+} catch(err) {
+
 }
 
 //Result

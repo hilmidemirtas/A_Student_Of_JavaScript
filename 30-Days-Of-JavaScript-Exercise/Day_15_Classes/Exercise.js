@@ -4,13 +4,12 @@
 
 class Animal {
     constructor(name, age, color, legs) {
-    console.log(this)
       this.name = name
       this.age = age
       this.color = color
       this.legs = legs
     }
 }
-    const animal = new Animal('horse','7','brown', '4')
+    const horse = new Animal('horse','7','brown', '4')
     
-    console.log("animal")
+    console.log(horse)

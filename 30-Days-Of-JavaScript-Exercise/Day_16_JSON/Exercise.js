@@ -222,3 +222,10 @@ const txt = `{
 let json = JSON.stringify(skills)
 
 console.log(json)
+
+//2.Stringify the age variable
+let age = 250;
+
+let  ageJson = JSON.stringify(age)
+
+console.log(ageJson)

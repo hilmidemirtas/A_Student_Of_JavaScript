@@ -106,6 +106,9 @@ const txt = `{
         "points": 40
     }
 }
-` */
+`
+
+JSON.stringify objeyi JSON’a çevirir.
+JSON.parse JSON’dan objeye çevirmeye yarar.*/
 
 //1.Change skills array to JSON using JSON.stringify()

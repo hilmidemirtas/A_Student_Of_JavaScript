@@ -3,4 +3,6 @@ let age = 250;
 
 let  ageJson = JSON.stringify(age)
 
-console.log(ageJson)
+console.log(ageJson);
+
+//JSON dosyası çalışması

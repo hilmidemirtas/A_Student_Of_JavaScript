@@ -224,6 +224,7 @@ let json = JSON.stringify(skills)
 console.log(json)
 
 //2.Stringify the age variable
+//String?
 let age = 250;
 
 let  ageJson = JSON.stringify(age)

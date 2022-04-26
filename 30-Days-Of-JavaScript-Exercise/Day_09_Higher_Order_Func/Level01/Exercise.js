@@ -59,7 +59,7 @@ console.log(namesToUpperCase)
 
 //11.Use filter to filter out countries containing land.
 
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland'];
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']; //Array
 const countriesContainingLand = countries.filter((country) => 
     country.includes('land'))
 console.log(countriesContainingLand)

@@ -13,3 +13,5 @@ class Animal {
     const horse = new Animal('horse','7','brown', '4')
     
     console.log(horse)
+//Result
+

@@ -17,9 +17,9 @@ const products = [
 
 //2.Define a call function before you them in forEach, map, filter or reduce.
 
-//3.Use forEach to console.log each country in the countries array.
+//3.Use forEach to console.log each country in the countries array. (foreach in hof)
 
->countries.forEach((element) => console.log(element))
+>countries.forEach((element) => console.log(element))  
 
 
 //4.Use forEach to console.log each name in the names array.

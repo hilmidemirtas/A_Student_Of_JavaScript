@@ -24,7 +24,7 @@ const products = [
 
 //4.Use forEach to console.log each name in the names array.
 
->names.forEach((element) => console.log(element))
+>names.forEach((element) => console.log(element))   //forEach
 
 //5.Use forEach to console.log each number in the numbers array.
 
